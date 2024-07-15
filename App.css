@@ -1,0 +1,36 @@
+header ul li {
+    @apply px-8 py-2;
+}
+
+.bg-primary {
+    background-color: black;
+}
+
+.text-primary {
+    color: white
+}
+
+.mobile-nav {
+    @apply fixed bg-gray-100 h-full w-1/2
+}
+
+.mobile-nav ul li {
+    @apply py-2
+}
+
+.social-icons a {
+    @apply px-5 py-8 hover:text-gray-400
+}
+
+.download-btn {
+    @apply py-2 px-5 rounded-md hover:bg-gray-400 hover:text-black font-bold
+
+}
+
+.project-btn {
+    @apply py-2 px-5 rounded-md text-white font-bold hover:bg-white hover:text-black hover:border-white hover:border-2
+}
+
+html {
+    scroll-behavior: smooth;
+}
